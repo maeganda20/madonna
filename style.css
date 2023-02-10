@@ -1,0 +1,107 @@
+body {
+  background-image: url(land.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   font-family: Arial, sans-serif;
+   color: black;
+   
+   justify-content: center;
+   align-items: center;
+   height: auto;
+ }
+.header {
+  background: linear-gradient(to right, pink, purple);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header h1 {
+  color: black;
+  margin: 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.navigation {
+ 
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.navigation a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: pink;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.navigation a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: pink;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid purple;
+}
+
+      .header-left {
+        flex: 1;
+      }
+      .header-right {
+        flex: 1;
+        text-align: right;
+      }
+      .main {
+        background: rgba(255, 95, 196, 0.63);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin-top: 100px;
+        border-radius: 20px;
+      }
+      .container {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .container, h1 {
+color: white;
+
+      }
+      .container, p {
+        color: white;
+        
+              }
+img {
+  height: 250px;
+  width: 250px;
+
+
+}
+      
+
